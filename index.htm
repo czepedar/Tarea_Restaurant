@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Gallo Rojo</title>
+</head>
+
+<body>
+    <header class="header">
+        <h3 >GALLO ROJO</h3>
+
+        <nav class="main-navigation">
+            <a href="index.html" >INICIO</a>
+            <a href="index.html">MENU</a>
+            <a href="index.html">CONTACTO</a>
+        </nav>
+        <div>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter-square"></i>
+        </div>
+    </header>
+    <main>
+        <section class="carrusel-contenedor">
+            <button onclick="cambiarIndice(-1)" class="chevron-button chevron-button-left">
+                <i class="fas fa-chevron-left chevron-left"></i>
+            </button>
+            <ul id="carrusel" class="carrusel">
+                <li class="hero-banner slide">
+                   <p>Restaurante Gallo Rojo<br> GASTRONOMÍA URBANA </p>
+                    <img src="https://www.daviddaper.com/sites/default/files/banner/DD-gastronomy.jpg">
+                </li>    
+                
+                <li class="hero-banner slide">
+                    <p>Lugares Acogedores </p>
+                     <img src="https://i.pinimg.com/originals/6d/9d/bb/6d9dbbf1f3905ff1642b2cbbf0f2f84e.jpg">
+                 </li>       
+                 
+                 <li class="hero-banner slide">
+                    <p>Variedad de Ingredientes</p>
+                     <img src="https://www.bovary.gr/sites/default/files/styles/cinematic_big/public/archive-files/field/image/feedel-570-kentriki.jpg?itok=aw05gfw2">
+                 </li>    
+                    
+
+            </ul> 
+            
+        <button onclick="cambiarIndice(1)" class="chevron-button chevron-button-right">    
+           <i class="fas fa-chevron-right "></i>
+        </button>   
+            <ul id="dot-container" class="dot-container">
+  
+            </ul>
+        </section>
+
+ 
+        <section class="flex-grid">
+            <img alt="Entrada Ceviche"src="https://blog.urbanadventures.com/wp-content/uploads/2017/06/Ceviche-in-T%C3%ADo-Navaja.-Photo-courtesy-of-the-restaurant.-e1497349075869.jpg">
+            <img alt="Ensalada de Pollo"src="https://bloximages.chicago2.vip.townnews.com/connecticutmag.com/content/tncms/assets/v3/editorial/1/ce/1ce739ce-2114-11ea-95f5-b39455fe6fd2/5df94865981d1.image.jpg?resize=1200%2C800">
+            <img alt="Plato Fuerte Res"src="https://northernvirginiamag.com/wp-content/uploads/2020/10/The-ashby-inn-smoked-rohan-duck.jpg">
+            <img alt="Plato Principal Lomito"src="https://digitalmarketing.blob.core.windows.net/12325/images/items/image642963.jpg">
+            <img alt="Plato Principal Cerdo"src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F7e3d85e2-da73-11eb-a2c2-c6b14b84b2dd.jpg?crop=2250%2C1500%2C0%2C0">
+            <img alt="Plato Principal pescado"src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/5cf032079d4b2a000d4f80cb-0b7d6491.jpg">
+            <img alt="Plato Principal res y verduras"src="https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/5b226b96ae08b50e442d9ce2-085dbec7.jpg">
+            <img alt="Plato Principal res y verduras"src="https://tul.imgix.net/content/article/russian-food-auckland.jpg?auto=format,compress&w=520&h=390&fit=crop">
+        </section>
+    </main>    
+    <footer></footer>
+
+</body>
+
+</html>
